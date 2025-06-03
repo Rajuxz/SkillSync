@@ -23,7 +23,7 @@ This tool aims to assist job seekers in tailoring their resumes effectively and 
 
 - **Exception Middleware**  
   Centralized exception handeling with custom middleware.
-- ** Serilog Logging**
+- **Serilog Logging**
   Logging daily exceptions in different files using serilog.
 
 # How to run this project?
