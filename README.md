@@ -1,4 +1,4 @@
-#SkillSync
+# SkillSync
 ( _In Development_ )
 ## Introduction
 This project is developed to analyze and compare a user's CV with a job description. It provides the following key features:
