@@ -6,7 +6,7 @@ namespace SkillSync.Middlewares
     {
         private readonly RequestDelegate _next;
         private readonly IMemoryCache _cache;
-        private int _requestLimit = 50;
+        private int _requestLimit = 500;
         private readonly TimeSpan _time = TimeSpan.FromMinutes(10);
 
         public RateLimitingMiddleware(RequestDelegate next, IMemoryCache cache)
