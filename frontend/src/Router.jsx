@@ -4,6 +4,8 @@ import {
   PublicRoute,
   ProtectedRoute,
   LoginForm,
+  Dashboard,
+  Layout,
 } from './components/index.js';
 
 const router = createBrowserRouter([
@@ -28,9 +30,15 @@ const router = createBrowserRouter([
     path: '/dashboard',
     element: (
       <ProtectedRoute>
-        <h1>Hello Dashboard.</h1>
+        <Layout />
       </ProtectedRoute>
     ),
+    children: [
+      {
+        index: true,
+        element: <Dashboard />,
+      },
+    ],
   },
 ]);
 
