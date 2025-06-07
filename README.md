@@ -13,7 +13,7 @@ This tool aims to assist job seekers in tailoring their resumes effectively and 
 
 - Backend: .NET Core Web API  
 - Frontend: React.js with Tailwind CSS  
-- State Management: Context API  
+- State Management: Zustand
 - Database: PostgreSQL
 
 ## Features Implemented
